@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D2F498C236F8A5D00515DD0 /* CheckMarkView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D2F498B236F8A5D00515DD0 /* CheckMarkView.framework */; };
+		0D2F4990236F9B3900515DD0 /* HelpListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2F498F236F9B3900515DD0 /* HelpListController.swift */; };
+		0D2F4992236FAD1800515DD0 /* Braintree.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D2F4991236FAD1800515DD0 /* Braintree.framework */; };
+		0D5645D9236E15CF00C87E41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5645D8236E15CF00C87E41 /* AppDelegate.swift */; };
+		0D5645DB236E15CF00C87E41 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5645DA236E15CF00C87E41 /* ViewController.swift */; };
+		0D5645DE236E15CF00C87E41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D5645DC236E15CF00C87E41 /* Main.storyboard */; };
+		0D5645E0236E15D100C87E41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D5645DF236E15D100C87E41 /* Assets.xcassets */; };
+		0D5645E3236E15D100C87E41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D5645E1236E15D100C87E41 /* LaunchScreen.storyboard */; };
+		0D5645EB236E1B8F00C87E41 /* HelpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5645EA236E1B8F00C87E41 /* HelpController.swift */; };
+		0D5645ED236E1C4200C87E41 /* VolunteerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5645EC236E1C4200C87E41 /* VolunteerController.swift */; };
+		0DB7CCCA236E4D800089FFF5 /* iOSDropDown.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DB7CCC9236E4D800089FFF5 /* iOSDropDown.framework */; };
+		0DB7CCCC236F69370089FFF5 /* AdminLoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB7CCCB236F69370089FFF5 /* AdminLoginController.swift */; };
+		0DB7CCCE236F71410089FFF5 /* AdminController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB7CCCD236F71410089FFF5 /* AdminController.swift */; };
+		0DB7CCD0236F71A20089FFF5 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB7CCCF236F71A20089FFF5 /* MapViewController.swift */; };
+		58CA748324146B6D74D1F87F /* Pods_Sewa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0235E2B22D8F2EFABF3B196 /* Pods_Sewa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0D2F498B236F8A5D00515DD0 /* CheckMarkView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CheckMarkView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D2F498F236F9B3900515DD0 /* HelpListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpListController.swift; sourceTree = "<group>"; };
+		0D2F4991236FAD1800515DD0 /* Braintree.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Braintree.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D5645D5236E15CF00C87E41 /* Sewa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sewa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D5645D8236E15CF00C87E41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0D5645DA236E15CF00C87E41 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0D5645DD236E15CF00C87E41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0D5645DF236E15D100C87E41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0D5645E2236E15D100C87E41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0D5645E4236E15D100C87E41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D5645EA236E1B8F00C87E41 /* HelpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpController.swift; sourceTree = "<group>"; };
+		0D5645EC236E1C4200C87E41 /* VolunteerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolunteerController.swift; sourceTree = "<group>"; };
+		0DB7CCC9236E4D800089FFF5 /* iOSDropDown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = iOSDropDown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DB7CCCB236F69370089FFF5 /* AdminLoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminLoginController.swift; sourceTree = "<group>"; };
+		0DB7CCCD236F71410089FFF5 /* AdminController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminController.swift; sourceTree = "<group>"; };
+		0DB7CCCF236F71A20089FFF5 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		4A9D209BE2581016A3C0AF8E /* Pods-Sewa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sewa.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sewa/Pods-Sewa.release.xcconfig"; sourceTree = "<group>"; };
+		C74B5330567BA4D9B6149206 /* Pods-Sewa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sewa.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sewa/Pods-Sewa.debug.xcconfig"; sourceTree = "<group>"; };
+		D0235E2B22D8F2EFABF3B196 /* Pods_Sewa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sewa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D5645D2236E15CF00C87E41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D2F4992236FAD1800515DD0 /* Braintree.framework in Frameworks */,
+				0D2F498C236F8A5D00515DD0 /* CheckMarkView.framework in Frameworks */,
+				0DB7CCCA236E4D800089FFF5 /* iOSDropDown.framework in Frameworks */,
+				58CA748324146B6D74D1F87F /* Pods_Sewa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D5645CC236E15CF00C87E41 = {
+			isa = PBXGroup;
+			children = (
+				0D5645D7236E15CF00C87E41 /* Sewa */,
+				0D5645D6236E15CF00C87E41 /* Products */,
+				C7C24E15C811543DCF1495EA /* Pods */,
+				9ABF79BEDF4F080291E3F30E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0D5645D6236E15CF00C87E41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D5645D5236E15CF00C87E41 /* Sewa.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0D5645D7236E15CF00C87E41 /* Sewa */ = {
+			isa = PBXGroup;
+			children = (
+				0D5645D8236E15CF00C87E41 /* AppDelegate.swift */,
+				0D5645DA236E15CF00C87E41 /* ViewController.swift */,
+				0D5645DC236E15CF00C87E41 /* Main.storyboard */,
+				0D5645DF236E15D100C87E41 /* Assets.xcassets */,
+				0D5645E1236E15D100C87E41 /* LaunchScreen.storyboard */,
+				0D5645E4236E15D100C87E41 /* Info.plist */,
+				0D5645EA236E1B8F00C87E41 /* HelpController.swift */,
+				0D5645EC236E1C4200C87E41 /* VolunteerController.swift */,
+				0DB7CCCB236F69370089FFF5 /* AdminLoginController.swift */,
+				0DB7CCCD236F71410089FFF5 /* AdminController.swift */,
+				0DB7CCCF236F71A20089FFF5 /* MapViewController.swift */,
+				0D2F498F236F9B3900515DD0 /* HelpListController.swift */,
+			);
+			path = Sewa;
+			sourceTree = "<group>";
+		};
+		9ABF79BEDF4F080291E3F30E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D2F4991236FAD1800515DD0 /* Braintree.framework */,
+				0D2F498B236F8A5D00515DD0 /* CheckMarkView.framework */,
+				0DB7CCC9236E4D800089FFF5 /* iOSDropDown.framework */,
+				D0235E2B22D8F2EFABF3B196 /* Pods_Sewa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7C24E15C811543DCF1495EA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C74B5330567BA4D9B6149206 /* Pods-Sewa.debug.xcconfig */,
+				4A9D209BE2581016A3C0AF8E /* Pods-Sewa.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0D5645D4236E15CF00C87E41 /* Sewa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D5645E7236E15D100C87E41 /* Build configuration list for PBXNativeTarget "Sewa" */;
+			buildPhases = (
+				6E5FC1520B0E8AC4D3A0265B /* [CP] Check Pods Manifest.lock */,
+				0D5645D1236E15CF00C87E41 /* Sources */,
+				0D5645D2236E15CF00C87E41 /* Frameworks */,
+				0D5645D3236E15CF00C87E41 /* Resources */,
+				7E283CA8C0D2AE8A225EF38F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sewa;
+			productName = Sewa;
+			productReference = 0D5645D5236E15CF00C87E41 /* Sewa.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0D5645CD236E15CF00C87E41 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Veer Doshi";
+				TargetAttributes = {
+					0D5645D4236E15CF00C87E41 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 0D5645D0236E15CF00C87E41 /* Build configuration list for PBXProject "Sewa" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0D5645CC236E15CF00C87E41;
+			productRefGroup = 0D5645D6236E15CF00C87E41 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0D5645D4236E15CF00C87E41 /* Sewa */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D5645D3236E15CF00C87E41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D5645E3236E15D100C87E41 /* LaunchScreen.storyboard in Resources */,
+				0D5645E0236E15D100C87E41 /* Assets.xcassets in Resources */,
+				0D5645DE236E15CF00C87E41 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6E5FC1520B0E8AC4D3A0265B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sewa-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E283CA8C0D2AE8A225EF38F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Sewa/Pods-Sewa-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Braintree/Braintree.framework",
+				"${BUILT_PRODUCTS_DIR}/CheckMarkView/CheckMarkView.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/iOSDropDown/iOSDropDown.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Braintree.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CheckMarkView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/iOSDropDown.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sewa/Pods-Sewa-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D5645D1236E15CF00C87E41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D5645ED236E1C4200C87E41 /* VolunteerController.swift in Sources */,
+				0D5645DB236E15CF00C87E41 /* ViewController.swift in Sources */,
+				0D5645EB236E1B8F00C87E41 /* HelpController.swift in Sources */,
+				0DB7CCCE236F71410089FFF5 /* AdminController.swift in Sources */,
+				0D2F4990236F9B3900515DD0 /* HelpListController.swift in Sources */,
+				0D5645D9236E15CF00C87E41 /* AppDelegate.swift in Sources */,
+				0DB7CCCC236F69370089FFF5 /* AdminLoginController.swift in Sources */,
+				0DB7CCD0236F71A20089FFF5 /* MapViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0D5645DC236E15CF00C87E41 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D5645DD236E15CF00C87E41 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0D5645E1236E15D100C87E41 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D5645E2236E15D100C87E41 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0D5645E5236E15D100C87E41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0D5645E6236E15D100C87E41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0D5645E8236E15D100C87E41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C74B5330567BA4D9B6149206 /* Pods-Sewa.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 435Z6X2LL6;
+				INFOPLIST_FILE = Sewa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.veerdoshi.Sewa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0D5645E9236E15D100C87E41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A9D209BE2581016A3C0AF8E /* Pods-Sewa.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 435Z6X2LL6;
+				INFOPLIST_FILE = Sewa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.veerdoshi.Sewa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D5645D0236E15CF00C87E41 /* Build configuration list for PBXProject "Sewa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D5645E5236E15D100C87E41 /* Debug */,
+				0D5645E6236E15D100C87E41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D5645E7236E15D100C87E41 /* Build configuration list for PBXNativeTarget "Sewa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D5645E8236E15D100C87E41 /* Debug */,
+				0D5645E9236E15D100C87E41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0D5645CD236E15CF00C87E41 /* Project object */;
+}
